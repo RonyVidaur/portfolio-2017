@@ -1,11 +1,11 @@
 /*font faces*/
 @font-face {
-  font-family: SUNN;
+  font-family: Phenomena;
   src: url(../assets/fonts/Phenomena-Light.otf);
   }
 
 @font-face {
-  font-family: Hello;
+  font-family: Nickainley;
   src: url(../assets/fonts/Nickainley-Normal.otf);
   }
 
@@ -15,7 +15,7 @@
 }
 /*general styling*/
 .card-holder {
-  background: #e2e1e0;
+  /*background: #e2e1e0;*/
 }
 
 .card {
@@ -75,8 +75,16 @@
 }
 
 .bottom {
+  padding: 80px;
+  height: 200px;
   position: relative;
-  bottom: 1;
+  width: 100;
+  bottom: 0;
+}
+
+
+.bottom span {
+  margin-bottom: 0;
 }
 
 .logo {
@@ -98,12 +106,12 @@
 
 .paragraph {
   font-size: 30px;
-  font-family: 'SUNN';
+  font-family: 'Phenomena';
 }
 
 body {
   font-size: 100%;
-  font-family: 'SUNN';
+  font-family: 'Phenomena';
 }
 
 .main {
@@ -113,7 +121,7 @@ body {
 }
 
 .primary-text {
-  font-family: 'SUNN';
+  font-family: 'Phenomena';
   font-size: 80px;
 }
 
@@ -130,7 +138,7 @@ body {
 }
 
 #name {
-  font-family: 'Hello';
+  font-family: 'Nickainley';
   font-size: 150px;
 }
 
@@ -150,12 +158,12 @@ body {
 
 
 a {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 
 a span {
 	position: absolute;
-	left: 50%;
+  left: 50%;
 	width: 30px;
 	height: 50px;
 	margin-left: -15px;
@@ -167,7 +175,7 @@ a span {
 a span::before {
 	position: absolute;
 	top: 10px;
-	left: 50%;
+  left: 50%;
 	content: '';
 	width: 6px;
 	height: 6px;
